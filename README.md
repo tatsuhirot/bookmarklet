@@ -28,15 +28,15 @@ Bookmarklets（ブックマークレット）は、ウェブブラウザで使�
     ```markdown
     ---
     tag: Book
-    title: "LIFE PACKING 2020 未来を生きるためのモノと知恵 (NEXTRAVELER BOOKS)"
-    author: "高城剛"
+    title: "源氏物語"
+    author: "紫式部"
     Consumed: false
     Review: false
-    category: Motivational Business Management
+    category: Classical Japanese Literature
     Rating: 
-    url: ![](https://m.media-amazon.com/images/I/81uaqEKx5SL._SY522_.jpg)
+    url: ![](https://example.jpg)
     ---
-    [[高城剛]]
+    [[紫式部]]
     ```
 
 ## 2. Kindle Highlights Extractor
