@@ -24,7 +24,20 @@ Bookmarklets（ブックマークレット）は、ウェブブラウザで使�
 
 3. ブラウザのブックマークバーに保存した「Amazon Book Info Extractor」をクリックします。
 
-4. 書籍の詳細情報がポップアップまたは新しいタブで表示されます。
+4. 書籍の詳細情報以下のようにポップアップで表示され、コピーされます。
+    ```markdown
+    ---
+    tag: Book
+    title: "LIFE PACKING 2020 未来を生きるためのモノと知恵 (NEXTRAVELER BOOKS)"
+    author: "高城剛"
+    Consumed: false
+    Review: false
+    category: Motivational Business Management
+    Rating: 
+    url: ![](https://m.media-amazon.com/images/I/81uaqEKx5SL._SY522_.jpg)
+    ---
+    [[高城剛]]
+    ```
 
 ## 2. Kindle Highlights Extractor
 
@@ -43,7 +56,16 @@ Bookmarklets（ブックマークレット）は、ウェブブラウザで使�
 
 3. ブラウザのブックマークバーに保存した「Kindle Highlights Extractor」をクリックします。
 
-4. ハイライトしたテキストデータが表示され、コピーしやすい形式で提供されます。
+4. ハイライトしたテキストデータが表示され、以下のような形式でコピーされます。
+    ```markdown
+    ### このハイライトは赤色です。
+    このハイライトは青色です。
+    このハイライトは青色です。
+    ### このハイライトは赤色です。
+    このハイライトは青色です。
+    このハイライトは青色です。
+    ```
+
 
 ## 注意事項
 - これらのブックマークレットは、ブラウザのJavaScriptが有効になっている必要があります。
