@@ -3,6 +3,7 @@
 このDocumentでは、
 - Amazon Book Info Extractor: Amazonの書籍情報を抽出する
 - Kindle Highlights Extractor: Kindleのハイライトデータを抽出する
+
 これらのブックマークレットの使用方法について説明します。
 
 ## Bookmarkletsとは？
@@ -38,7 +39,7 @@ Bookmarklets（ブックマークレット）は、ウェブブラウザで使�
    javascript:(function(){const e=document.querySelectorAll('span#annotationHighlightHeader'),t=document.querySelectorAll('div[id^="highlight-"]');let n=[];if(t.length===e.length){for(let l=0;l<t.length;l++){let a=t[l],i=a.textContent.trim();a.classList.contains('kp-notebook-highlight-pink')?i=%60### ${i}%60:a.classList.contains('kp-notebook-highlight-blue')||(i=%60${i}%60),n.push(i)}}let d=n.join('\n');const r=document.createElement('textarea');r.style.position='fixed',r.style.top=0,r.style.left=0,r.style.width='100%',r.style.height='100%',r.style.zIndex=2147483647,r.textContent=d,document.body.innerHTML='',document.body.appendChild(r),r.select();})();
    ```
 
-2. ![Kindle Library](https://read.amazon.co.jp/kindle-library)から、ノートとハイライトを表示するページにアクセスし、ハイライトしたい本を選択します。
+2. [Kindle Library](https://read.amazon.co.jp/kindle-library)から、ノートとハイライトを表示するページにアクセスし、ハイライトしたい本を選択します。
 
 3. ブラウザのブックマークバーに保存した「Kindle Highlights Extractor」をクリックします。
 
